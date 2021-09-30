@@ -1,0 +1,24 @@
+$color-black: #313639;
+$color-primary: dodgerblue;
+
+a {
+	text-decoration: none;
+	color: dodgerblue;
+	transition: transform 0.15s, font-weight 0.15s;
+	cursor: pointer;
+}
+
+.btn {
+	border-radius: 20px;
+	transition: background 0.15s;
+	&:hover {
+		background: lighten($color: $color-black, $amount: 0.5);
+	}
+	&.btn-light {
+		border: 1px $color-black solid;
+		transition: background 0.15s;
+		&:hover {
+			background: rgb(241, 241, 241);
+		}
+	}
+}

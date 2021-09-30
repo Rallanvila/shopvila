@@ -1,0 +1,19 @@
+.nav {
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidenav {
+  display: inline-block;
+}
+
+.total-sales {
+  display: inline-block;
+}
+
+.fa-chalkboard-teacher {
+  font-size: 3rem;
+  color: dodgerblue;
+}
