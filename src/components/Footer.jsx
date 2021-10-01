@@ -9,11 +9,15 @@ function Footer() {
 						className="icon icon--white far fa-chevron-down"
 					></i>
 				</header>
-				<div className="collapsible__content">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-					pariatur voluptates provident doloribus delectus fugiat iste
-					recusandae totam veniam possimus.
-				</div>
+				<a href="/" className="collapsible__content">
+					Locations
+				</a>
+				<a href="/" className="collapsible__content">
+					Our Company
+				</a>
+				<a href="/" className="collapsible__content">
+					Stories and News
+				</a>
 			</div>
 			<div className="collapsible">
 				<header className="collapsible__header">
@@ -23,11 +27,15 @@ function Footer() {
 						className="icon icon--white far fa-chevron-down"
 					></i>
 				</header>
-				<div className="collapsible__content">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-					pariatur voluptates provident doloribus delectus fugiat iste
-					recusandae totam veniam possimus.
-				</div>
+				<a href="/" className="collapsible__content">
+					Culture and Values
+				</a>
+				<a href="/" className="collapsible__content">
+					Inclusion, Diversity and Equity
+				</a>
+				<a href="/" className="collapsible__content">
+					U.S. Careers
+				</a>
 			</div>
 			<div className="collapsible">
 				<header className="collapsible__header">
@@ -44,10 +52,10 @@ function Footer() {
 				</div>
 			</div>
 			<div className="footer__social">
-				<i class="fab fa-facebook-f"></i>
-				<i class="fab fa-instagram"></i>
-				<i class="fab fa-youtube"></i>
-				<i class="fab fa-twitter"></i>
+				<i className="fab fa-facebook-f"></i>
+				<i className="fab fa-instagram"></i>
+				<i className="fab fa-youtube"></i>
+				<i className="fab fa-twitter"></i>
 			</div>
 			<h2 className="footer__section">Privacy Policy</h2>
 			<h2 className="footer__section">Terms of Use</h2>

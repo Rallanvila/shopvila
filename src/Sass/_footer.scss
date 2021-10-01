@@ -11,6 +11,13 @@
 	.collapsible__header {
 		font-size: 1rem;
 	}
+	.collapsible.collapsible--expanded {
+		.collapsible__content {
+			display: block;
+			color: $color-black;
+			margin-bottom: 1rem;
+		}
+	}
 	.footer__social {
 		display: flex;
 		margin: 2rem 0;

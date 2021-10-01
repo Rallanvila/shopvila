@@ -10,6 +10,7 @@ import SecondaryFeatureCard from "./components/SecondaryFeatureCard";
 import DualCard from "./components/DualCard";
 import Footer from "./components/Footer";
 import reportWebVitals from "./reportWebVitals";
+import BottomFeature from "./components/BottomFeature";
 
 ReactDOM.render(
 	<React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.render(
 		<MainFeatureCard />
 		<SecondaryFeatureCard />
 		<DualCard />
+		<BottomFeature />
 		<Footer />
 	</React.StrictMode>,
 	document.getElementById("root"),

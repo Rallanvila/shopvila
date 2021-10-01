@@ -9,7 +9,7 @@ function SecondaryFeatureCard() {
 					Kalua Cinnamon Dolce: water down the heat with our Kalua Cinnamon
 					Dolce thirst quencher.
 				</h3>
-				<a href="/" className="btn btn-clear">
+				<a href="/" className="btn btn-white">
 					Order now
 				</a>
 			</div>

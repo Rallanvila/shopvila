@@ -1,5 +1,9 @@
 $color-black: #313639;
 $color-primary: dodgerblue;
+$brand-blue: #294442;
+$brand-brown: #c69250;
+$brand-green: #89a525;
+$brand-grey: #789494;
 
 //Universal Settings
 * {
@@ -10,6 +14,7 @@ $color-primary: dodgerblue;
 	*::before {
 		box-sizing: border-box;
 	}
+	color: #0e1318;
 }
 //Typography
 h1 {
@@ -47,6 +52,15 @@ button {
 		transition: background 0.15s;
 		&:hover {
 			background: rgb(241, 241, 241);
+		}
+	}
+	&.btn-white {
+		border: 1.5px #fff solid;
+		color: #fff;
+		font-weight: 500;
+		transition: background 0.15s;
+		&:hover {
+			background: rgba(255, 255, 255, 0.16);
 		}
 	}
 }
@@ -117,6 +131,8 @@ button {
 		overflow: hidden;
 		opacity: 0;
 		transition: max-height 0.5s, opacity 0.3s;
+		color: black;
+		display: block;
 	}
 	&.collapsible--expanded .fa-chevron-down {
 		transform: rotate(0);
