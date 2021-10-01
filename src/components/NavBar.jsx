@@ -1,6 +1,5 @@
 import "../Sass/App.scss";
 import logo from "../icons/logo.svg";
-import React, { useState } from "react";
 
 function NavBar() {
 	return (

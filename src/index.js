@@ -1,23 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-// import App from "./App";
-import NavBar from "./components/NavBar";
-import SideNav from "./components/SideNav";
-import TotalSales from "./components/TotalSales";
-import CustomerCard from "./components/CustomerCard";
-import "./css/App.css";
-import reportWebVitals from "./reportWebVitals";
 import "normalize.css";
-// import Bootstrap from "bootstrap";
+import "./index.css";
+import "./css/App.css";
+import NavBar from "./components/NavBar";
+import MainBanner from "./components/MainBanner";
+import MainFeatureCard from "./components/MainFeatureCard";
+import SecondaryFeatureCard from "./components/SecondaryFeatureCard";
+import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
 	<React.StrictMode>
-		{/* <App /> */}
 		<NavBar />
-		{/* <SideNav />
-		<TotalSales />
-		<CustomerCard /> */}
+		<MainBanner />
+		<MainFeatureCard />
+		<SecondaryFeatureCard />
 	</React.StrictMode>,
 	document.getElementById("root"),
 );
