@@ -1,6 +1,8 @@
 .footer {
 	width: 100%;
 	padding: 1rem;
+	max-width: 1400px;
+	margin: 0 auto;
 	.collapsible {
 		&:nth-last-child(2) {
 			padding-bottom: 2rem;
