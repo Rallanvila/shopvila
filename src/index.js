@@ -7,6 +7,8 @@ import NavBar from "./components/NavBar";
 import MainBanner from "./components/MainBanner";
 import MainFeatureCard from "./components/MainFeatureCard";
 import SecondaryFeatureCard from "./components/SecondaryFeatureCard";
+import DualCard from "./components/DualCard";
+import Footer from "./components/Footer";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
@@ -15,6 +17,8 @@ ReactDOM.render(
 		<MainBanner />
 		<MainFeatureCard />
 		<SecondaryFeatureCard />
+		<DualCard />
+		<Footer />
 	</React.StrictMode>,
 	document.getElementById("root"),
 );
