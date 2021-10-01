@@ -51,7 +51,7 @@ button {
 		font-weight: 500;
 		transition: background 0.15s;
 		&:hover {
-			background: rgb(241, 241, 241);
+			background: rgba(241, 241, 241, 0.5);
 		}
 	}
 	&.btn-white {
